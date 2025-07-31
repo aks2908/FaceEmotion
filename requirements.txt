@@ -1,4 +1,4 @@
 pip==25.2
-matplotlib==3.10.3
-numpy==1.26.0
+matplotlib>=3.10.1
+numpy>=1.26.0
 pandas==2.2.3
