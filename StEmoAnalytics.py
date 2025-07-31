@@ -5,7 +5,7 @@ import matplotlib
 #matplotlib.use('TkAgg') # Or 'QtAgg', 'GTK3Agg', etc.
 
 st.header('Display video')
-path = "C:/PythonProjects/Streamlit"
+path = "https://github.com/aks2908/FaceEmotion/tree/main"
 video_file = open(path + '/modi.mp4','rb')
 video_bytes = video_file.read()
 st.video(video_bytes)
