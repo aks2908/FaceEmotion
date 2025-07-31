@@ -3,7 +3,6 @@ import numpy as np
 import pandas as pd
 import matplotlib
 #matplotlib.use('TkAgg') # Or 'QtAgg', 'GTK3Agg', etc.
-
 st.header('Display video')
 path = "https://github.com/aks2908/FaceEmotion/tree/main"
 video_file = open(path + '/modi.mp4','rb')
@@ -13,7 +12,6 @@ st.header('Emotion Analytics of video')
 #----------Plots-------------
 import numpy as np
 import matplotlib.pyplot as plt
-
 data = pd.read_csv('emotion2.csv')
 data = data.iloc[:,1:8]
 ang = data.iloc[:,0]
