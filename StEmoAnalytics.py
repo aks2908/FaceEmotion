@@ -4,7 +4,8 @@ import pandas as pd
 import matplotlib
 #matplotlib.use('TkAgg') # Or 'QtAgg', 'GTK3Agg', etc.
 st.header('Display video')
-path = "https://github.com/aks2908/FaceEmotion/main/modi.mp4"
+#path = "https://github.com/aks2908/FaceEmotion/main/modi.mp4"
+path = "modi.mp4"
 video_file = open(path,'rb')
 video_bytes = video_file.read()
 st.video(video_bytes)
