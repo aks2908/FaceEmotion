@@ -1,12 +1,13 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import feat
 from feat import Detector
 import os
 #from feat.utils.io import get_test_data_path
 from feat.utils.io import read_feat
 from feat.plotting import imshow
-import scipy
+
 import matplotlib.pyplot as plt
 # initialize Detector
 detector = Detector(emotion_model="resmasknet")
