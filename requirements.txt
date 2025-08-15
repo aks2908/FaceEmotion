@@ -1,7 +1,7 @@
 pip>=22.3
+feat>=1.0.5
 py-feat==0.6.2
-matplotlib>=3.10.1
-numpy>=1.24.1
+matplotlib==3.10.1
+numpy==1.24.1
 pandas==2.2.3
-feat==1.0.5
-
+streamlit==1.46.1
